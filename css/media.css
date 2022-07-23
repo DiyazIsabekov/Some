@@ -1,0 +1,160 @@
+@media all and (max-width: 460px) {
+    body {
+        width: 100%;
+    }
+
+    .logo_block {
+        flex-direction: column;
+    }
+
+    .logo_block h1 {
+        font-size: 18px;
+
+    }
+
+    .logo_block img {
+        margin: 4%;
+        width: 30%;
+        height: 30%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .img_block {
+        width: 70%;
+        margin: 6% 14%;
+        flex-direction: column;
+    }
+
+    .img_block img {
+        border-radius: 10%;
+        margin: 3% 0;
+
+    }
+
+    .img_block p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+    .about_app h2 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .video {
+        margin: 3%;
+    }
+
+    .video .background {
+        /* width: 50%; */
+        border-radius: 9%;
+        /* height: 50%; */
+    }
+
+    .video .play_button {
+        width: 10%;
+        height: 20%;
+    }
+
+    .question_img {
+        display: none;
+    }
+
+    .about_project h2 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 10px;
+
+    }
+
+    .about_project p {
+        font-size: 15px;
+        line-height: 17px;
+        margin-bottom: 50px;
+    }
+
+    .download h2 {
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 50px;
+
+    }
+
+    .download_icons {
+        justify-content: space-around;
+    }
+
+    .download_icons img {
+        width: 35%;
+        margin: 0 1 auto;
+    }
+
+    .footer_block {
+        padding: 30px 0 0 0;
+        height: 600px;
+    }
+
+    .download p {
+        font-size: 15px;
+    }
+
+    .footer_text {
+        padding: 0;
+    }
+
+    .footer_text h2 {
+
+        font-size: 24px;
+    }
+
+    .footer_wrapper img {
+        height: 32px;
+
+
+    }
+
+    .footer_wrapper {
+        width: 35%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0;
+    }
+
+    .zagolovok3 {
+        width: 35%;
+        margin: 0 auto;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+
+
+    }
+
+    .footer_text1 {
+        text-align: center;
+        margin-bottom: 5px;
+        padding-left: 20px;
+    }
+
+    .footer_text1 h3 {
+        font-size: 18px;
+    }
+
+    .footer_text1 p {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 460px) {
+    .burger_menu {
+        display: block;
+    }
+}
